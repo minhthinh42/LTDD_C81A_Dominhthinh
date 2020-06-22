@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dominhthinh.appbandienthoai.activity.DienThoaiSamSungActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbardienthoaisamssung"
+        app:title="Điện Thoại Sam Sung"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="#f9f6f5"
+        android:background="#185c57">
+
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/listviewdienthoaisamsung"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
